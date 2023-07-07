@@ -7,6 +7,10 @@
     <title>MDQ Entrena</title>
     <!-- Logo de la pagina -->
     <link rel="shortcut icon" href="Imagenes/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -19,7 +23,7 @@
         <nav>
             <ul class="lista">
                 <li><a href="#nuestroServicio">Nuestros Servicios</a></li>
-                <li><a href="">Nuestro Espacio</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -28,11 +32,11 @@
         <div class="container-img">
             <img src="./Imagenes/imagenFondo.jpg" alt="imagen principal" srcset="">
             <h1>Transforma tu cuerpo HOY</h1>
-            <h2>Sumate a MDQ Entrena y alcanza tus metas de fitness con nuestro equipo de entrenadores expertos</h2>
+            <!-- <h2>Sumate a MDQ Entrena y alcanza tus metas de fitness con nuestro equipo de entrenadores expertos</h2> -->
         </div>
     </section>
     <section>
-        <div class="container-nosotros">
+        <div class="container-nosotros" id="nosotros">
             <div class="texto">
                 <h3>Sobre nosotros</h3>
                 <p>En MDQ Entrena ofrecemos una amplia variedad de servivios para ayudar a nuestros clientes a alcanzar
@@ -61,9 +65,10 @@
                         <h1>Funcional</h1>
                     </div>
                     <div class="contenido-descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error labore ad enim eaque eius
-                            perferendis dolores, harum, neque debitis dolore quo placeat autem ducimus, nisi tempora
-                            architecto id quos sequi?</p>
+                        <p>El entrenamiento funcional se enfoca en desarrollar la fuerza, resistencia y movilidad
+                            necesarias para realizar actividades diarias. Con ejercicios que simulan movimientos
+                            naturales, se mejora la coordinación, estabilidad y condición física, brindando beneficios
+                            para el rendimiento y prevención de lesiones.</p>
                     </div>
                 </div>
             </div>
@@ -76,9 +81,25 @@
                         <h1>Musculacion</h1>
                     </div>
                     <div class="contenido-descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error labore ad enim eaque eius
-                            perferendis dolores, harum, neque debitis dolore quo placeat autem ducimus, nisi tempora
-                            architecto id quos sequi?</p>
+                        <p>El entrenamiento de musculación se centra en el desarrollo y fortalecimiento de los músculos
+                            a través de ejercicios con pesas y máquinas. Ayuda a aumentar la masa muscular, mejorar la
+                            fuerza y la resistencia, y promover una apariencia física tonificada y definida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contenido-card">
+                <div class="contenido-img">
+                    <img src="./Imagenes/personalizados.jpeg" alt="foto del servicio">
+                </div>
+                <div class="contenido-info">
+                    <div class="contenido-titulo">
+                        <h1>Personalizados</h1>
+                    </div>
+                    <div class="contenido-descripcion">
+                        <p>El entrenamiento personalizado es un enfoque individualizado que se adapta a las necesidades
+                            y metas específicas de cada persona. A través de la supervisión y planificación
+                            individualizada, se optimiza el rendimiento, se evitan lesiones y se logran resultados
+                            eficientes y sostenibles.</p>
                     </div>
                 </div>
             </div>
@@ -91,13 +112,12 @@
                         <h1>Yoga</h1>
                     </div>
                     <div class="contenido-descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error labore ad enim eaque eius
-                            perferendis dolores, harum, neque debitis dolore quo placeat autem ducimus, nisi tempora
-                            architecto id quos sequi?</p>
+                        <p>El yoga es una práctica que combina posturas físicas, respiración y meditación para promover
+                            la armonía y el equilibrio en mente, cuerpo y espíritu. Mejora la flexibilidad, fortalece el
+                            cuerpo, reduce el estrés y fomenta la calma y la conexión interna.</p>
                     </div>
                 </div>
             </div>
-            
             <div class="contenido-card">
                 <div class="contenido-img">
                     <img src="./Imagenes/st.jpeg" alt="foto del servicio">
@@ -107,9 +127,10 @@
                         <h1>Stretching</h1>
                     </div>
                     <div class="contenido-descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error labore ad enim eaque eius
-                            perferendis dolores, harum, neque debitis dolore quo placeat autem ducimus, nisi tempora
-                            architecto id quos sequi?</p>
+                        <p>El stretching es una actividad que busca mejorar la flexibilidad muscular y la amplitud de
+                            movimiento. A través de ejercicios específicos, se elongan los músculos, se alivian
+                            tensiones y se previenen lesiones, promoviendo una sensación de bienestar y relajación en el
+                            cuerpo.</p>
                     </div>
                 </div>
             </div>
@@ -122,12 +143,14 @@
                         <h1>Adultos Mayores</h1>
                     </div>
                     <div class="contenido-descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error labore ad enim eaque eius
-                            perferendis dolores, harum, neque debitis dolore quo placeat autem ducimus, nisi tempora
-                            architecto id quos sequi?</p>
+                        <p>El entrenamiento en adultos mayores es un enfoque adaptado y seguro para mejorar la salud y
+                            la calidad de vida. Con ejercicios de bajo impacto, se fortalecen los músculos, se mejora el
+                            equilibrio y la movilidad, se previenen caídas y se promueve la autonomía funcional en esta
+                            etapa de la vida.</p>
                     </div>
                 </div>
             </div>
+
         </div>
 
     </section>
