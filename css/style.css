@@ -317,12 +317,9 @@
 
 .parallax {
     width: 100%;
-    max-width: 3000px;
-    min-width: 320px;
-    margin: auto;
     background: url("../Imagenes/F3.jpg") fixed;
     /* max-height: 100%; */
-    height: 650px;
+    height: 750px;
     position: relative;
     background-size: cover;
     object-fit: cover;
@@ -330,9 +327,19 @@
     background-attachment: fixed;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 1200px) {
     .parallax {
-        background: url(../Imagenes/F3-mini.jpg) fixed;
+        background: url("../Imagenes/F3-mediano.jpg") fixed;
+        width: 100%;
+        height: 450px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 650px) {
+    .parallax {
+        background: url("../Imagenes/F3-mini.jpg") fixed;
         width: 100%;
         height: 300px;
         background-position: center;
